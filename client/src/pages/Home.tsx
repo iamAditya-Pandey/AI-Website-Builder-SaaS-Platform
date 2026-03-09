@@ -8,6 +8,7 @@ import { Loader2Icon } from 'lucide-react';
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'sonner';
+import Footer from '../components/Footer';
 
 const Home = () => {
 
@@ -38,8 +39,8 @@ const Home = () => {
   }
 
   return (
-  
-      <section className="flex flex-col items-center text-white text-sm pb-20 px-4 font-sans tracking-wide">
+      <>
+      <section className="flex flex-col items-center text-white text-sm pb-10 px-4 font-sans tracking-wide min-h-[80vh]">
 
         <div className="flex items-center gap-2 border border-orange-500/30 bg-orange-950/20 rounded-full p-1 pr-4 text-sm mt-20 cursor-default">
           <span className="bg-orange-600 text-xs font-semibold px-3 py-1 rounded-full tracking-wider uppercase">Enterprise</span>
@@ -77,7 +78,9 @@ const Home = () => {
           <img className="max-w-28 md:max-w-32" src="https://saasly.prebuiltui.com/assets/companies-logo/walmart.svg" alt="" />
         </div>
       </section>
-
+      
+      <Footer />
+      </>
   )
 }
 
