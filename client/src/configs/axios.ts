@@ -1,12 +1,10 @@
-/* * Author: Aditya Pandey 
- * GitHub: https://github.com/iamAditya-Pandey 
- * Description: Axios instance configuration for backend API communication. 
- */
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: import.meta.env.VITE_BASEURL || 'http://localhost:3000',
+    // Temporarily hardcode the EXACT live Render URL here. 
+    // Remove the import.meta.env completely for this test.
+    baseURL: 'https://your-backend-app-name.onrender.com', 
     withCredentials: true
 })
 
-export default api
+export default api;
