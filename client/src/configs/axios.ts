@@ -5,9 +5,8 @@
 import axios from 'axios';
 
 const api = axios.create({
-    // Hardcoded to your exact live Render backend
-    baseURL: 'https://ai-website-builder-saas-platform.onrender.com', 
+    baseURL: import.meta.env.VITE_BASEURL || 'http://localhost:3000',
     withCredentials: true
-});
+})
 
-export default api;
+export default api
