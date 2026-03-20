@@ -2,6 +2,8 @@
 
 AI Website Builder SaaS Platform is an enterprise-grade, full-stack monorepo engineered to automate the transition from conceptualization to deployment. This platform orchestrates an advanced MERN-architecture backend with Prisma ORM and Neon serverless PostgreSQL, integrating OpenRouter’s LLM API to deliver a high-performance, AI-driven website generation engine. Built with a focus on scalability and security, it features robust JWT-based authentication, asynchronous Stripe webhook handling, and a modular frontend designed for seamless user experience and rapid iteration.
 
+### 🔗 **Live Demo:** [View Live App](https://ai-website-builder-saa-s-platform.vercel.app/)
+
 ## ✨ Features
 
 * **AI-Powered Generation Engine:** Integrates OpenRouter API to programmatically generate and edit dynamic website layouts, demonstrating advanced API orchestration and prompt handling.
